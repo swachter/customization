@@ -1,0 +1,31 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "exports": {
+    "./*": {
+      "import": "./out/*.mjs",
+      "types": "./out/*.d.mts"
+    }
+  },
+  "files": [
+    "out/*"
+  ],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swachter/customization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swachter/customization/issues"
+  },
+  "homepage": "https://github.com/swachter/customization#readme"
+}

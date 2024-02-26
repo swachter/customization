@@ -1,0 +1,30 @@
+{
+  "name": "customization",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc --build --verbose",
+    "lint:es": "eslint '**/*.{ts,mts}'"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swachter/customization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swachter/customization/issues"
+  },
+  "homepage": "https://github.com/swachter/customization#readme",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-plugin-expect-type": "^0.3.0",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^7.0.2"
+  }
+}

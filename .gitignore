@@ -1,0 +1,16 @@
+# IDE/Editor settings
+.idea/
+.vscode/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Node.js / npm
+node_modules/
+.eslintcache
+
+out/
+*.tgz
+*.tsbuildinfo
